@@ -1,0 +1,413 @@
+.canvasBtn {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background: var(--token-Abo-hB2iM8_F);
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 0.1s;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 0.1s;
+  border-radius: 6px;
+  padding: 12px 20px;
+  border-width: 0px;
+}
+.canvasBtn > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.canvasBtn > :global(.__wab_flex-container) > *,
+.canvasBtn > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.canvasBtn > :global(.__wab_flex-container) > picture > img,
+.canvasBtn
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.canvasBtnshowStartIcon {
+  padding-left: 16px;
+}
+.canvasBtnshowEndIcon {
+  padding-right: 16px;
+}
+.canvasBtnisDisabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.canvasBtnshape_rounded {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 100px;
+  border-radius: 999px;
+}
+.canvasBtnshape_round {
+  border-radius: 50%;
+  padding: 12px;
+}
+.canvasBtnshape_sharp {
+  border-radius: 0px;
+}
+.canvasBtnsize_compact {
+  padding: 6px 16px;
+}
+.canvasBtnsize_minimal {
+  padding: 0px;
+}
+.canvasBtncolor_blue {
+  background: #0091ff;
+}
+.canvasBtncolor_green {
+  background: #30a46c;
+}
+.canvasBtncolor_yellow {
+  background: #f5d90a;
+}
+.canvasBtncolor_red {
+  background: #e54d2e;
+}
+.canvasBtncolor_sand {
+  background: #717069;
+}
+.canvasBtncolor_white {
+  background: #ffffff;
+}
+.canvasBtncolor_softBlue {
+  background: #edf6ff;
+}
+.canvasBtncolor_softGreen {
+  background: #e9f9ee;
+}
+.canvasBtncolor_softYellow {
+  background: #fffbd1;
+}
+.canvasBtncolor_softRed {
+  background: #fff0ee;
+}
+.canvasBtncolor_softSand {
+  background: #eeeeec;
+}
+.canvasBtncolor_clear {
+  background: #ffffff00;
+}
+.canvasBtncolor_link {
+  background: #ffffff00;
+}
+.canvasBtnshowStartIcon_shape_rounded {
+  padding-left: 16px;
+}
+.canvasBtnshowEndIcon_shape_rounded {
+  padding-right: 16px;
+}
+.canvasBtnshape_round_size_compact {
+  padding: 6px;
+}
+.canvasBtn___focusVisibleWithin {
+  box-shadow: 0px 0px 0px 3px #96c7f2;
+}
+.canvasBtn:focus-within {
+  box-shadow: 0px 0px 0px 3px #96c7f2;
+}
+.canvasBtn:hover {
+  background: #282826;
+}
+.canvasBtn:active {
+  background: #2e2e2b;
+}
+.canvasBtncolor_blue:hover {
+  background: #369eff;
+}
+.canvasBtncolor_blue:active {
+  background: #52a9ff;
+}
+.canvasBtncolor_green:hover {
+  background: #3cb179;
+}
+.canvasBtncolor_green:active {
+  background: #4cc38a;
+}
+.canvasBtncolor_yellow:hover {
+  background: #ffef5c;
+}
+.canvasBtncolor_yellow:active {
+  background: #f0c000;
+}
+.canvasBtncolor_red:hover {
+  background: #ec5e41;
+}
+.canvasBtncolor_red:active {
+  background: #f16a50;
+}
+.canvasBtncolor_sand:hover {
+  background: #7f7e77;
+}
+.canvasBtncolor_sand:active {
+  background: #a1a09a;
+}
+.canvasBtncolor_white:hover {
+  background: #ffef5c;
+}
+.canvasBtncolor_white:active {
+  background: #f0c000;
+}
+.canvasBtncolor_softBlue:hover {
+  background: #e1f0ff;
+}
+.canvasBtncolor_softBlue:active {
+  background: #cee7fe;
+}
+.canvasBtncolor_softGreen:active {
+  background: #ccebd7;
+}
+.canvasBtncolor_softGreen:hover {
+  background: #ddf3e4;
+}
+.canvasBtncolor_softYellow:active {
+  background: #fef2a4;
+}
+.canvasBtncolor_softYellow:hover {
+  background: #fff8bb;
+}
+.canvasBtncolor_softRed:active {
+  background: #fdd8d3;
+}
+.canvasBtncolor_softRed:hover {
+  background: #ffe6e2;
+}
+.canvasBtncolor_softSand:hover {
+  background: #e9e9e6;
+}
+.canvasBtncolor_softSand:active {
+  background: #e3e3e0;
+}
+.canvasBtncolor_clear:hover {
+  background: #e9e9e6;
+}
+.canvasBtncolor_clear:active {
+  background: #e3e3e0;
+}
+.canvasBtncolor_link:hover {
+  background: #ffffff00;
+}
+.canvasBtncolor_link:active {
+  background: #ffffff00;
+}
+.startIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.startIconContainershowStartIcon {
+  display: flex;
+}
+.slotTargetStartIcon {
+  color: #ededec;
+}
+.slotTargetStartIconcolor_yellow {
+  color: #35290f;
+}
+.slotTargetStartIconcolor_white {
+  color: #35290f;
+}
+.slotTargetStartIconcolor_softBlue {
+  color: #006adc;
+}
+.slotTargetStartIconcolor_softGreen {
+  color: #18794e;
+}
+.slotTargetStartIconcolor_softYellow {
+  color: #946800;
+}
+.slotTargetStartIconcolor_softRed {
+  color: #ca3214;
+}
+.slotTargetStartIconcolor_softSand {
+  color: #706f6c;
+}
+.slotTargetStartIconcolor_clear {
+  color: #1b1b18;
+}
+.slotTargetStartIconcolor_link {
+  color: #0091ff;
+}
+.canvasBtncolor_link:hover .slotTargetStartIconcolor_link {
+  color: #0081f1;
+}
+.canvasBtncolor_link:active .slotTargetStartIconcolor_link {
+  color: #006adc;
+}
+.svg__xdAa {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.contentContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.slotTargetChildren {
+  color: #ededec;
+  font-weight: 500;
+  white-space: pre;
+}
+.slotTargetChildrencolor_blue {
+  color: #ffffff;
+}
+.slotTargetChildrencolor_green {
+  color: #ffffff;
+}
+.slotTargetChildrencolor_yellow {
+  color: #35290f;
+}
+.slotTargetChildrencolor_red {
+  color: #ffffff;
+}
+.slotTargetChildrencolor_sand {
+  color: #ffffff;
+}
+.slotTargetChildrencolor_white {
+  color: #1b1b18;
+}
+.slotTargetChildrencolor_softBlue {
+  color: #006adc;
+}
+.slotTargetChildrencolor_softGreen {
+  color: #18794e;
+}
+.slotTargetChildrencolor_softYellow {
+  color: #946800;
+}
+.slotTargetChildrencolor_softRed {
+  color: #ca3214;
+}
+.slotTargetChildrencolor_softSand {
+  color: #1b1b18;
+}
+.slotTargetChildrencolor_clear {
+  color: #1b1b18;
+}
+.slotTargetChildrencolor_link {
+  color: #0091ff;
+}
+.canvasBtncolor_link:hover .slotTargetChildrencolor_link {
+  color: #0081f1;
+}
+.canvasBtncolor_link:hover .slotTargetChildrencolor_link > :global(.__wab_text),
+.canvasBtncolor_link:hover
+  .slotTargetChildrencolor_link
+  > :global(.__wab_expr_html_text),
+.canvasBtncolor_link:hover
+  .slotTargetChildrencolor_link
+  > :global(.__wab_slot-string-wrapper),
+.canvasBtncolor_link:hover
+  .slotTargetChildrencolor_link
+  > :global(.__wab_slot)
+  > :global(.__wab_text),
+.canvasBtncolor_link:hover
+  .slotTargetChildrencolor_link
+  > :global(.__wab_slot)
+  > :global(.__wab_expr_html_text),
+.canvasBtncolor_link:hover
+  .slotTargetChildrencolor_link
+  > :global(.__wab_slot)
+  > :global(.__wab_slot-string-wrapper),
+.canvasBtncolor_link:hover
+  .slotTargetChildrencolor_link
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_text),
+.canvasBtncolor_link:hover
+  .slotTargetChildrencolor_link
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_expr_html_text),
+.canvasBtncolor_link:hover
+  .slotTargetChildrencolor_link
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot-string-wrapper),
+.canvasBtncolor_link:hover
+  .slotTargetChildrencolor_link
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_text),
+.canvasBtncolor_link:hover
+  .slotTargetChildrencolor_link
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_expr_html_text),
+.canvasBtncolor_link:hover
+  .slotTargetChildrencolor_link
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot-string-wrapper) {
+  text-decoration-line: underline;
+}
+.canvasBtncolor_link:active .slotTargetChildrencolor_link {
+  color: #006adc;
+}
+.endIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.endIconContainershowEndIcon {
+  display: flex;
+}
+.slotTargetEndIcon {
+  color: #ededec;
+}
+.slotTargetEndIconcolor_yellow {
+  color: #35290f;
+}
+.slotTargetEndIconcolor_white {
+  color: #35290f;
+}
+.slotTargetEndIconcolor_softBlue {
+  color: #006adc;
+}
+.slotTargetEndIconcolor_softGreen {
+  color: #18794e;
+}
+.slotTargetEndIconcolor_softYellow {
+  color: #946800;
+}
+.slotTargetEndIconcolor_softRed {
+  color: #ca3214;
+}
+.slotTargetEndIconcolor_softSand {
+  color: #706f6c;
+}
+.slotTargetEndIconcolor_clear {
+  color: #1b1b18;
+}
+.slotTargetEndIconcolor_link {
+  color: #0091ff;
+}
+.canvasBtncolor_link:hover .slotTargetEndIconcolor_link {
+  color: #0081f1;
+}
+.canvasBtncolor_link:active .slotTargetEndIconcolor_link {
+  color: #006adc;
+}
+.svg__fL7O0 {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
